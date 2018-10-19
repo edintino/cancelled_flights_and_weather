@@ -4,9 +4,9 @@
 
 Two dataset was used for this project, one contained the [flight data] and the other one the [weather data]. I put the datasets into a data folder and renamed the weather dataset file to "2015_usa_weather.csv" (unfortunately does not contain wind or precipitation, which would be the most important). My idea was to create a classification model to decide whether a flight will be cancelled or not using the columns (- and the reasoning):
 
-*Origin/Destination airport - ground handling problems or similar,
-*Distance - weather condition might change dramatically for longer journeys  (the basic dataset contained the distance, but I wanted to challenge myself to calculate it),
-*Average/Minimum/Maximum temperature - this supposed to cover the weather conditions, a big difference in max and min, might indicate a storm, but as I said earlier a wind and/or precipitation would be better as weather directly does not influence cancellation.
++Origin/Destination airport - ground handling problems or similar,
++Distance - weather condition might change dramatically for longer journeys  (the basic dataset contained the distance, but I wanted to challenge myself to calculate it),
++Average/Minimum/Maximum temperature - this supposed to cover the weather conditions, a big difference in max and min, might indicate a storm, but as I said earlier a wind and/or precipitation would be better as weather directly does not influence cancellation.
 
 Improvements could be done with: wind, precipitation, airline (crew out of time) or plane type (mechanical issues).
 
