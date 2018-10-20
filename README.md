@@ -17,4 +17,8 @@ First I defined a function to calculate the distance between two points on a sph
 
 ## Classification model
 
-Not created it yet.
+First I tried using a linear classifier of tensroflow, the accuracy was surprisingly good, so I did further checks and it turned out that it produced only no cancellation as the event of a flight cancellation is relatively rare the model got high accuracy. Secondly I tried a dense neural network classifier, unfortunaltely with no imporvement.
+
+## Conclusion
+
+Probably more relevant data would be required for cancellation prediction as it depends on many factors or maybe different models should be used (although I am sceptical about it). Another approach could be to make the task of the model easier and classify whether there will be a delay due to weather conditions, this might be a future project.
