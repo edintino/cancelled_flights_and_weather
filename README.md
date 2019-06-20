@@ -21,4 +21,4 @@ First I tried using a linear classifier of tensroflow, the accuracy was surprisi
 
 ## Conclusion
 
-Probably more relevant data would be required for cancellation prediction as it depends on many factors or maybe different models should be used (although I am sceptical about it). Another approach could be to make the task of the model easier and classify whether there will be a delay due to weather conditions, this might be a future project.
+Probably more relevant data would be required for cancellation prediction as it depends on many factors or maybe different models should be used. Another approach could be to make the task of the model easier and classify whether there will be a delay due to weather conditions, this might be a future project.
